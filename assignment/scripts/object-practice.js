@@ -14,7 +14,7 @@ const me = {
   lastName: 'Wharton',
   hasSiblings: false,
   shoeCount: 196,
-  favThreeFoods: ['pizza', 'chicken nuggets', 'ice cream']
+  favThreeFoods: ['Pizza', 'Chicken Nuggets', 'Ice Cream']
 };
 console.log('A little about me:', me);
 
@@ -25,7 +25,7 @@ console.log('A little about me:', me);
   - Console.log fullName
 */
 
-let fullName = me.firstName + me.lastName;
+let fullName = me.firstName + " " + me.lastName;
 console.log('My full name is:', fullName);
 
 
