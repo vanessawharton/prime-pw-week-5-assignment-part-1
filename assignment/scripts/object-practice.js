@@ -33,8 +33,8 @@ console.log('My full name is:', fullName);
   - Console.log your first favorite food
   - Console.log your last favorite food 
 */
-console.log(favThreeFoods[0]);
-console.log(favThreeFoods[2]);
+console.log(me.favThreeFoods[0]);
+console.log(me.favThreeFoods[2]);
 
 
 /* 4. Change a property of an existing object.
@@ -44,8 +44,8 @@ console.log(favThreeFoods[2]);
   - Console.log your updated shoe count. 
 */
 
-shoeCount = shoeCount + 1;
-console.log(shoeCount);
+me.shoeCount = me.shoeCount + 1;
+console.log(me.shoeCount);
 
 
 /* 5. Add a new property to an existing object.
