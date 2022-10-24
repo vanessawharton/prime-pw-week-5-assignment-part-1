@@ -25,7 +25,7 @@ console.log('A little about me:', me);
   - Console.log fullName
 */
 
-let fullName = firstName + lastName;
+let fullName = me.firstName + me.lastName;
 console.log('My full name is:', fullName);
 
 
