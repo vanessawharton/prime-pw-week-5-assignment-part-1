@@ -14,7 +14,7 @@ const me = {
   lastName: 'Wharton',
   hasSiblings: false,
   shoeCount: 196,
-  {favThreeFoods: ['pizza', 'chicken nuggets', 'ice cream']}
+  favThreeFoods: ['pizza', 'chicken nuggets', 'ice cream']
 };
 console.log('A little about me:', me);
 
